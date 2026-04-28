@@ -11,9 +11,9 @@ main:
 	syscall
 	move $t0,$v0
 	li $v0,5
-	syscall
-	li $v0,5
+    syscall
 	move $t1,$v0
+    li $v0,5
 	syscall
 	move $t2,$v0
 	sll $t1,$t1,2
@@ -26,7 +26,7 @@ main:
 	li $v0,1
 	syscall
 	
-	j exix
+	j exit
 
 
 exit:
