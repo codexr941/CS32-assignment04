@@ -17,7 +17,7 @@ main:
 	syscall
 	move $t2,$v0
 	sll $t1,$t1,2
-    sub $t0,$t0,t1
+    sub $t0,$t0,$t1
 	sll $t0,$t0,6
 	li $t3, 9
     mult $t2, $t3
